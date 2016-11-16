@@ -12,11 +12,11 @@
 
 </head>
 
-<body ng-app="app">
+<body ng-app="app" ng-controller="webController">
 <header>
   <nav>
     <ul>
-      <li class="pull-left">SA Consultants Logo</li>
+      <li ng-click=go('/') class="pull-left">SA Consultants Logo</li>
       <li><button ng-click=go('/solutions') class="navBtn">Solutions</button></li>
       <li><button ng-click=go('/insights') class="navBtn">Insights</button></li>
       <li><button ng-click=go('/about') class="navBtn">About Us</button></li>
