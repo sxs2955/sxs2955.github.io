@@ -17,10 +17,10 @@
   <nav>
     <ul>
       <li class="pull-left">SA Consultants Logo</li>
-      <li><button class="navBtn">Solutions</button></li>
-      <li><button class="navBtn">Insights</button></li>
-      <li><button class="navBtn">About Us</button></li>
-      <li class="pull-right"><button class="navBtn">Contact Us</button></li>
+      <li><button ng-click=go('/solutions') class="navBtn">Solutions</button></li>
+      <li><button ng-click=go('/insights') class="navBtn">Insights</button></li>
+      <li><button ng-click=go('/about') class="navBtn">About Us</button></li>
+      <li class="pull-right"><button ng-click=go('/contact') class="navBtn">Contact Us</button></li>
     </ul>
   </nav>
 </header>

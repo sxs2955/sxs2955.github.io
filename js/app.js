@@ -13,3 +13,10 @@ app.config(function($routeProvider){
        })
        .otherwise("/");
 });
+
+
+app.controller("webController", function($scope,$location) {
+    $scope.go = function(hash){
+        $location.path(hash);
+    }
+});
